@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class Util
+public class Tools
 {
     public static int getInt(String s)
     {
@@ -41,9 +41,12 @@ public class Util
 
     public static void udskriv(String s)
     {
-
         System.out.print(s + " : ");
+    }
 
+    public static void udskriv(int i)
+    {
+        System.out.print(i + " : ");
     }
 
     public static String smartFilLæsning()
